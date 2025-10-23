@@ -1,3 +1,18 @@
-.img1 {
-    background-image: url("assets/dog.jpg");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
 }
+
+.img1 {
+    background-image: url('../assets/natureza.jpg');
+    width: 98%;        
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    background-attachment: fixed;
+    }
+
+.img2 
