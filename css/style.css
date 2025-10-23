@@ -15,4 +15,21 @@
     background-attachment: fixed;
     }
 
-.img2 
+.img2 {
+    background-image: url('../assets/praia.jpg');
+    width:98%;
+    height: 350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment:fixed;
+}
+
+.img3 {
+    background-image: url('../assets/montanha.jpg');
+    width:98%;
+    height: 350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment:fixed;
+    
+}
