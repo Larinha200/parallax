@@ -13,6 +13,10 @@
     background-position: center;
     margin: 0 auto;
     background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
     }
 
 .img2 {
@@ -22,6 +26,9 @@
     background-size: cover;
     margin: 0 auto;
     background-attachment:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img3 {
@@ -31,5 +38,39 @@
     background-size: cover;
     margin: 0 auto;
     background-attachment:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
+
+.img4 {
+    background-image: url('../assets/floresta.jpg');
+    width: 98%;
+    height:350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto1 {
+    color: black;
+    border:  white;
+    padding: 20px 40px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    text-align: center;
+    letter-spacing: 3px;
+  
+    
+}
+ h1{
+    color: white;
+    border: 2px solid white;
+    padding: 20px 40px;
+    text-align: center; 
+}
+
