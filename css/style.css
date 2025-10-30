@@ -67,8 +67,12 @@
     letter-spacing: 3px;
     text-align: justify;
     text-justify: inter-word;
+   
   
     
+}
+.texto1, .texto2>p, .texto3> p, .texto4 > p{
+    margin: 17px;
 }
 h1{
     color: white;
@@ -84,20 +88,25 @@ html {
   scroll-behavior: smooth; /* Rolagem suave */
 }
 
-/* Botão fixo no canto inferior direito */
 #btnTopo {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  text-align: center;
-  font-size: 22px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px; /* Centraliza a seta */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s;
+
+  background-color: transparent; /* fundo transparente */
+  border: none;  /* sem borda */
+  padding: 0;    /* sem padding */
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+  outline: none; /* remove contorno de foco padrão */
 }
 
+#btnTopo svg {
+  fill: black;  /* cor do ícone (pode ajustar) */
+  width: 32px;
+  height: 32px;
+}
